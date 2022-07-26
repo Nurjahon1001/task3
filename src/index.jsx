@@ -116,14 +116,14 @@ const Container = () => {
                 </div>
               </div>
               <div className="investing_img">
-                <img src={dark_phone} alt="phone" />
+                <img className="dark_phone" width={600} src={dark_phone} alt="phone" />
               </div>
             </div>
           </div>
           <div className="investing_page cash_page">
             <div className="investing cash">
               <div className="investing_img">
-                <img src={light_phone} alt="phone" />
+                <img className="light_phone" width={750} src={light_phone} alt="phone" />
               </div>
               <div className="investing_context">
                 <h1 className="preview_title">
@@ -157,7 +157,7 @@ const Container = () => {
             </p>
           </div>
           <div className="investing_img">
-            <img src={saving_img} alt="phone" />
+            <img className="saving_img" width={550} src={saving_img} alt="phone" />
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@ const Container = () => {
           <div className="card">
             <p className="card_title">TESTIMONIAL</p>
             <p className="card_text first_text">
-              <span style={{ fontWeight: 700 }}>It's the single best</span>
+              <span style={{ fontWeight: 700 }}>It's the single best </span>
               resource for both investing, managing retirement and seeing my
               entire financial picture.
             </p>

@@ -100,15 +100,16 @@ ul.navigation {
 
 .investing {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 6.6rem;
+  gap: 5rem;
   padding: 0 10%;
 }
 
 .preview_title {
-  font-size: 5.6rem;
+  font-size: 4.6rem;
   letter-spacing: 3px;
-  line-height: 6rem;
+  line-height: 5rem;
 }
 
 .preview_subtitle {
@@ -127,17 +128,13 @@ ul.navigation {
 
 .cash {
   gap: 0 !important;
-  margin-top: 9rem;
-  margin-bottom: 5.4rem;
   padding: 0 3.5%;
 }
 
 .saving {
-  width: 100% !important;
+  width: 100%;
   background-color: var(--base-color);
-  margin: 0 !important;
-  padding-top: 9rem;
-  padding-bottom: 11rem;
+  padding: 2rem 10%;
 }
 
 .saving>.investing_context>p,
@@ -153,20 +150,20 @@ ul.navigation {
 .card_page {
   width: 100%;
   background: rgb(39, 28, 184);
-  background: linear-gradient(180deg, #230B59 34%, rgba(255, 255, 255, 1) 30%);
+  background: linear-gradient(180deg, #230B59 30%, rgba(255, 255, 255, 1) 30%);
   text-align: center;
 }
 
 .cards_wrapper {
   display: flex;
   gap: 1.6rem;
-  padding: 24rem 10rem;
+  padding: 20rem 10rem;
   padding-bottom: 0;
 }
 
 .card {
-  width: 32%;
-  padding: 4rem;
+  width: 33%;
+  padding: 3.5rem;
   background: #FFFFFF;
   border-radius: 6px;
   text-align: start;
@@ -177,22 +174,22 @@ ul.navigation {
 }
 
 .title2 {
-  margin-top: 13.5rem;
+  margin-top: 7rem;
 }
 
 .bottom_title {
-  margin-top: 25.5rem;
+  margin-top: 18rem;
 }
 
 .card_text {
-  font-size: 3.4rem;
+  font-size: 3.1rem;
   letter-spacing: 1.26px;
   font-weight: 400;
   margin: 3rem 0;
 }
 
 .first_text {
-  font-size: 4.2rem !important;
+  font-size: 3.3rem !important;
 }
 
 .centered_card {
@@ -201,7 +198,7 @@ ul.navigation {
 }
 
 .rectangle_text {
-  font-size: 5.8rem;
+  font-size: 5rem;
   font-weight: 400;
   letter-spacing: 3px;
   margin-bottom: -11rem;
@@ -219,7 +216,7 @@ ul.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16rem;
+  padding: 0 10rem;
 }
 
 .footer {
