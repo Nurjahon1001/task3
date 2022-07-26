@@ -164,36 +164,37 @@ const Container = () => {
       <div className="card_page">
         <div className="cards_wrapper">
           <div className="card">
-            <p className="card_title">Testimonial</p>
-            <p className="card_text">
-              It's the single best resource for both investing, managing
-              retirement and seeing my entire financial picture.
+            <p className="card_title">TESTIMONIAL</p>
+            <p className="card_text first_text">
+              <span style={{ fontWeight: 700 }}>It's the single best</span>
+              resource for both investing, managing retirement and seeing my
+              entire financial picture.
             </p>
             <p className="card_title">Joshua B</p>
           </div>
           <div className="card">
-            <p className="card_title">Testimonial</p>
+            <p className="card_title">TESTIMONIAL</p>
             <p className="card_text">
-              It's the single best resource for both investing, managing
-              retirement and seeing my entire financial picture.
+              <span style={{ fontWeight: 700 }}>Wealthfront</span> is the first
+              thing in my life that actually motivated me to save money.
             </p>
-            <p className="card_title">Joshua B</p>
+            <p className="card_title title2">Isidore</p>
           </div>
           <div className="card">
-            <p className="card_title">Testimonial</p>
+            <p className="card_title">TESTIMONIAL</p>
             <p className="card_text">
-              It's the single best resource for both investing, managing
-              retirement and seeing my entire financial picture.
+              <span style={{ fontWeight: 700 }}>It’s automatic,</span> and I’m
+              lazy.
             </p>
-            <p className="card_title">Joshua B</p>
+            <p className="card_title bottom_title">Ryan</p>
           </div>
-          <div className="centered_card">
-            <img src={rectangle} alt="rectangle" />
-            <p className="rectangle_text">
-              Over 450,000 people are already using Wealthfront to earn more and
-              worry less
-            </p>
-          </div>
+        </div>
+        <div className="centered_card">
+          <img src={rectangle} alt="rectangle" />
+          <p className="rectangle_text">
+            Over <span style={{ fontWeight: 700 }}>450,000</span> people are
+            <br /> already using Wealthfront to <br /> earn more and worry less
+          </p>
         </div>
         <button className="getStarted_btn">Get started</button>
         <p className="feauterd_text">As featured in</p>
@@ -234,36 +235,43 @@ const Container = () => {
               </ul>
             </div>
           </div>
-          <hr />
+          <div className="line"></div>
           <p className="footer_text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis{" "}
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
             <br /> <br />
             ratione sequi nihil delectus, vero perspiciatis, suscipit ab
             praesentium fugiat exercitationem fugit numquam, quo minus illum cum
             porro iusto architecto reiciendis quidem? Voluptas eos ratione
             doloremque distinctio praesentium, voluptate ipsum corporis
             laboriosam natus doloribus necessitatibus officia libero assumenda
-            itaque sunt porro magnam? Corporis error expedita sit, eum ut fuga{" "}
+            itaque sunt porro magnam? Corporis error expedita sit, eum ut fuga
             <br /> <br />
             quae minus molestiae fugit iure similique voluptas nesciunt
             inventore laboriosam voluptatem hic doloremque officia provident.
             Quidem obcaecati soluta beatae ducimus eveniet amet. Alias odit,
-            nobis officiis consequatur, aliquam fugiat impedit deserunt unde{" "}
+            nobis officiis consequatur, aliquam fugiat impedit deserunt undequae minus molestiae fugit iure similique voluptas nesciunt
+            inventore laboriosam voluptatem hic doloremque officia provident.
+            Quidem obcaecati soluta beatae ducimus eveniet amet. Alias odit,
+            nobis officiis consequatur, aliquam fugiat impedit deserunt unde
             <br /> <br />
-            dolor ea magnam, rerum quaerat ipsum repudiandae in? Dignissimos{" "}
+            dolor ea magnam, rerum quaerat ipsum repudiandae in? Dignissimos
             <br /> <br />
             aliquam quo iusto omnis sequi praesentium odit, facere, assumenda
             fugit doloribus accusamus quaerat, nulla ipsum illum eum dolorum
-            fuga incidunt perspiciatis ex architecto voluptatibus? Deleniti
-            ipsum consectetur accusamus necessitatibus sit asperiores molestiae
-            iste qui, magni atque nemo mollitia. Quae sit voluptate, et iusto
-            veniam repudiandae unde vel? Corrupti, consectetur sapiente? <br />{" "}
-            <br />
+            fuga incidfugit doloribus accusamus quaerat, nulla ipsum illum eum
+            dolorum fuga incidunt perspiciatis ex architecto voluptatibus?
+            Deleniti ipsum consectetur accusamus necessitatibus sit asperiores
+            molestiae iste qui, magni atque nemo mollitia. Quae sit voluptate,
+            et iusto veniam repudiandae unde vel? Corrupti, consectetur
+            sapiente?unt perspiciatis ex architecto voluptatibus? Deleniti ipsum
+            consectetur accusamus necessitatibus sit asperiores molestiae iste
+            qui, magni atque nemo mollitia. Quae sit voluptate, et iusto veniam
+            repudiandae unde vel? Corrupti, consectetur sapiente? <br /> <br />
             Consectetur ipsa sequi eligendi sapiente minus voluptate. Ipsam est
             aut, eveniet distinctio mollitia unde fuga. Inventore commodi saepe
             temporibus, rem pariatur numquam, ratione delectus consequatur
             doloremque, illum laborum natus aperiam! Doloremque assumenda omnis
-            alias optio, possimus impedit hic accusantium maxime voluptas <br />{" "}
+            alias optio, possimus impedit hic accusantium maxime voluptas <br />
             <br />
             architecto reiciendis eligendi! Amet id quas iure aliquid, eos
             corporis fugit esse vitae tempora sint at voluptate delectus officia
@@ -274,7 +282,7 @@ const Container = () => {
             error rem provident minima, quibusdam exercitationem temporibus ea
             similique libero accusamus in vel, totam consequatur at natus,
             assumenda quos vitae dicta tempore nihil ab? Asperiores, minima
-            temporibus unde libero earum iste sapiente explicabo dignissimos{" "}
+            temporibus unde libero earum iste sapiente explicabo dignissimos
             <br /> <br />
             dolore impedit culpa molestiae aperiam laboriosam deleniti delectus
             exercitationem. Libero quod illo omnis, adipisci veritatis nesciunt
@@ -284,7 +292,7 @@ const Container = () => {
             dolor nemo! Eius harum nostrum non magni ipsum necessitatibus iusto
             reprehenderit officiis rem itaque! Quod ad, atque expedita nesciunt
             optio omnis veniam voluptatum architecto nisi quis esse repellendus
-            porro recusandae sequi labore officiis. Itaque quidem perspiciatis{" "}
+            porro recusandae sequi labore officiis. Itaque quidem perspiciatis
             <br /> <br />
             vitae enim? Ducimus iure sequi sunt cum vero ipsa fugiat nam sint
             quasi non nesciunt, illo explicabo. Inventore possimus soluta vitae
@@ -296,13 +304,13 @@ const Container = () => {
             repudiandae minima facere! Sapiente quasi sequi eos ab accusamus
             minima totam ipsum odio excepturi itaque vero dolor possimus
             praesentium, quam, autem tenetur quaerat soluta. Neque quam harum,
-            voluptatem mollitia error illo doloremque atque eos deleniti fugit{" "}
+            voluptatem mollitia error illo doloremque atque eos deleniti fugit
             <br /> <br />
             incidunt dignissimos, quaerat quod quasi laboriosam eligendi nisi
-            dolorem debitis quia nemo vero cum! At ut iste dolore voluptatum{" "}
+            dolorem debitis quia nemo vero cum! At ut iste dolore voluptatum
             <br /> <br />
             ullam nam neque earum distinctio architecto, nihil assumenda rem
-            mollitia! Consequatur tempore quibusdam exercitationem neque eveniet{" "}
+            mollitia! Consequatur tempore quibusdam exercitationem neque eveniet
             <br /> <br />
             asperiores cum ab sunt accusantium voluptate? <br /> <br />© 2021
             Wealthfront Corporation. All rights reserved.
